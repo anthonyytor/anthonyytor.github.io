@@ -1,0 +1,471 @@
+body {
+    background-color: #edeff1;
+}
+
+.header .upper-header {
+    background: url(../img/header-bg.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.header .upper-header .language li {
+    background: #fff;
+}
+
+.header .upper-header .language li a {
+    color: #9a8348;
+    border-radius: 0;
+    border: none;
+}
+
+.header .upper-header .language .active {
+    background: #005ca6;
+}
+
+.header .upper-header .language .active a {
+    color: #fff;
+}
+
+.header .upper-header .logo-banner {
+    margin-top: 40px;
+}
+
+.header .upper-header .logo {
+    background: #fff;
+    padding: 30px;
+}
+
+.header .upper-header .logo-banner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+}
+
+.header .upper-header .logo-banner h1 {
+    color: #005ca6;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+}
+
+.header .upper-header .logo-banner h5 {
+    color: #9a8348;
+    text-align: center;
+}
+
+.header .upper-header .blue-border {
+    border-bottom: 1px solid #005ca6;
+}
+
+.header .upper-header .search {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.header form input {
+    background-color: #fff;
+    border: none;
+    color: #9a8348;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.header form ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #9a8348;
+}
+.header form :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #9a8348;
+   opacity:  1;
+}
+.header form ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #9a8348;
+   opacity:  1;
+}
+.header form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #9a8348;
+}
+
+.header form button {
+    background-color: #fff;
+    border: none;
+    color: #9a8348;
+    padding: 15px;
+    width: 100%;
+}
+
+.nopadding-right {
+   padding-right: 0 !important;
+   margin-right: 0 !important;
+}
+
+.nopadding-left {
+   padding-left: 0 !important;
+   margin-left: 0 !important;
+}
+
+.header .menu {
+    background: #005ca6;
+    padding: 15px 10px;
+}
+
+.header .menu ul a {
+    color: #fff;
+    padding: 0 15px;
+    display:inline-block;
+    vertical-align:middle;
+    line-height:normal;
+    width: 100%;
+}
+
+.header .menu ul a:hover {
+    color: #9a8348;
+    background-color: #005ca6;
+}
+
+.header .menu ul li {
+    border-left: #fff solid 1px;
+    height: 100%;
+    line-height : 35px;
+}
+
+.header .menu ul li:nth-child(1) {
+    border-left: none;
+}
+
+.main {
+    padding-bottom: 50px;
+}
+
+.main>.container {
+    border-bottom: 2px solid #005ca6;
+    padding-bottom: 50px;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+}
+
+.banner .carousel-indicators li {
+    border: none;
+    background-color: #edeff1;
+}
+
+.banner .carousel-indicators .active {
+    background-color: #9a8348;
+}
+
+.banner .col-md-4, .banner .col-md-8 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.banner .text-banner {
+    background-color: #fff;
+    padding: 40px;
+    height: 500px;
+    overflow: scroll;
+}
+
+.banner .text-banner .flag-icon {
+    font-size: 1.5em;
+}
+
+.banner .text-banner h2 {
+    color: #9a8348;
+}
+
+.banner .text-banner .btn {
+    background-color: #fff;
+    border: 1px solid #9a8348;
+    border-radius: 0;
+    color: #9a8348;
+}
+
+.banner .img-banner {
+    width: 100%;
+    height: 500px;
+}
+
+.banner .img-banner1 {
+    background: url(../img/bg1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner .img-banner2 {
+    background-color: #654;
+}
+
+.banner .img-banner3 {
+    background-color: #a9f;}
+
+.banner .img-banner4 {
+    background-color: #e5f;
+}
+
+.banner .img-banner5 {
+    background-color: #223;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.content .news-column {
+    padding-bottom: 500em;
+    margin-bottom: -500em;
+    margin-top: 40px;
+}
+
+.content .news-nav {
+    margin-bottom: 20px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.content .news-nav .nav li a {
+    background-color: #edeff1;
+    color: #005ca6;
+    border: 1px #005ca6 solid;
+    border-radius: 0;
+    padding: 2px 15px;
+    margin: 0 5px;
+}
+
+.content .news-nav .nav .active a {
+    background-color: #005ca6;
+    color: #fff;
+}
+
+.content .news {
+    background-color: #fff;
+    padding: 40px 40px 40px 20px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.content .news li {
+    list-style-type: none;
+    border-bottom: 1px solid #e7e7e7;
+    padding-top: 10px;
+}
+
+.content .news .date-news {
+    color: #9a8348;
+    font-weight: bold;
+}
+
+.content .taux-column {
+    background-color: #fff;
+    padding: 10px 20px 500em 20px;
+    margin-bottom: -500em;
+    margin-top: 40px;
+}
+
+.content .taux-column h3 {
+    color: #9a8348;
+}
+
+.content .taux-column .taux-interet {
+    border-bottom: #005ca6 2px solid;
+    padding-bottom: 20px;
+}
+
+.taux-column .taux-interet table {
+    color: #005ca6;
+    font-size: 0.9em;
+    border-spacing: 10px;
+    border-collapse: separate;
+    width: 100%;
+}
+
+.taux-column table .name-taux {
+    border-bottom: 1px #edeff1 solid;
+}
+
+.taux-column table .taux-taux {
+    text-align: center;
+    background-color: #edeff1;
+    padding: 10px
+}
+
+.taux-column .taux-change table {
+    color: #005ca6;
+    font-size: 0.9em;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.taux-column table .flag-taux {
+    width: 15%;
+    text-align: center;
+}
+
+.taux-column table .currency-taux {
+    width: 15%;*/
+    text-align: left;
+    border-bottom: 1px #edeff1 solid;
+}
+
+.taux-column table .centre-taux {
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px #edeff1 solid;
+}
+
+.taux-column table .valeur-taux {
+    width: 20%;
+    text-align: right;
+    border-bottom: 1px #edeff1 solid;
+}
+
+.taux-column .taux-change p {
+    color: #999999;
+    font-size: 0.8em;
+    line-height: 0.5;
+}
+
+.footer {
+    background: url(../img/footer-bg.png) no-repeat center center #005ca6;
+    background-size: 35%;
+	padding: 15px;
+}
+
+.footer-header {
+	list-style-type: none;
+}
+
+.footer-header>li {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 0.6em;
+	padding: 15px 0;
+}
+
+.footer-header>li:before {
+    content: "\e252";
+    font-family: 'Glyphicons Halflings';
+    font-size: 1em;
+    position: relative;
+    margin-right: 10px;
+    color: #ffb83e;
+}
+
+.footer-links {
+	list-style-type: none;
+	line-height: 1;
+	padding-left: 18px;
+}
+
+.footer-links a {
+	color: #fff;
+	font-size: 0.6em;
+}
+
+.bottom-footer {
+	margin-top: 30px;
+}
+
+.bottom-footer-links>li {
+	float: left;
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+}
+
+.bottom-footer-links a {
+	color: #fff;
+	font-size: 0.6em;
+	text-transform: uppercase;
+}
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (max-width: 992px) {
+    .banner {
+        height: 100%;
+    }
+    .banner .text-banner {
+        height: 100%;
+    }
+    .banner .img-banner {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+/*Basic Slider*/
+
+#banner-fade,
+#banner-slide{
+    margin-bottom: 45px;
+}
+
+ul.bjqs-controls.v-centered li a{
+    display:block;
+    padding:10px;
+    background:#fff;
+    color:#000;
+    text-decoration: none;
+}
+
+ul.bjqs-controls.v-centered li a:hover{
+    background:#000;
+    color:#fff;
+}
+
+ol.bjqs-markers li a{
+    padding:5px 10px;
+    background:#999;
+    color:#fff;
+    margin:5px;
+    text-decoration: none;
+}
+
+ol.bjqs-markers li.active-marker a,
+ol.bjqs-markers li a:hover{
+    background: #9a8348;
+}
+
+p.bjqs-caption{
+    background: rgba(255,255,255,0.5);
+}
